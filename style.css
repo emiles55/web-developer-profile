@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: url(backgroundimage.jpg);
+    background-size: cover;
+}
+/*Formatting for the header content */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: plum;
+    color: black;
+}
+
+.header h1 {
+    background-image: linear-gradient(to right, rgb(220, 72, 176), rgb(222, 136, 202), rgb(189, 29, 184), rgb(169, 19, 180), rgb(248, 121, 243), indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 35s linear inifinite;
+    display: inline-block;
+    font-size: 48px;
+    
+}
+
+/*div was changed to nav to be more concise */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+html{
+    font-size: 30px;
+}
+.about-me-container {
+display:flex
+
+}
+@keyframes move{
+    to{
+        background-position: 4500vh;
+    }
+}
+.about-me-container p{
+    margin-left:80px;
+    margin-right: 80px;
+}
+.image img {
+
+    border: pink solid ;
+    height:200px;
+    width: 150px;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
