@@ -17,7 +17,7 @@
 }
 
 .header h1 {
-    background-image: linear-gradient(to right, rgb(220, 72, 176), rgb(222, 136, 202), rgb(189, 29, 184), rgb(169, 19, 180), rgb(248, 121, 243), indigo, violet);
+    background: linear-gradient(to right, rgb(220, 72, 176), rgb(222, 136, 202), rgb(189, 29, 184), rgb(169, 19, 180), rgb(248, 121, 243), indigo, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 25s linear inifinite;
