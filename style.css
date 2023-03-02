@@ -20,13 +20,20 @@
     background-image: linear-gradient(to right, rgb(220, 72, 176), rgb(222, 136, 202), rgb(189, 29, 184), rgb(169, 19, 180), rgb(248, 121, 243), indigo, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: move 35s linear inifinite;
+    animation: animate 25s linear inifinite;
     display: inline-block;
     font-size: 48px;
     
 }
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
 
-/*div was changed to nav to be more concise */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,11 +57,7 @@ html{
 display:flex
 
 }
-@keyframes move{
-    to{
-        background-position: 4500vh;
-    }
-}
+
 .about-me-container p{
     margin-left:80px;
     margin-right: 80px;
@@ -80,8 +83,16 @@ display:flex
     gap: var(--gap);
 
 }
-.image-grid > img{
+.image-grid img{
  width: 100%;
  height: 100%;
  object-fit: cover;
+}
+@media screen and (max-width: 1024px){
+    .image-grid{
+        --num-cols:2;
+        --row-height: 200px;
+    }
+
+    
 }
