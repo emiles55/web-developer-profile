@@ -61,15 +61,15 @@ display:flex
 .about-me-container p{
     margin-left:80px;
     margin-right: 80px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 .image img {
 
-    border: pink solid ;
+    border: purple solid ;
     height:200px;
     width: 150px;  
     justify-content: center;
     align-items: center;
-    border-radius: 10%;
 }
 .image-grid{
     --gap: 16px;
@@ -126,4 +126,11 @@ display:flex
     bottom: 0;
     margin: auto;
     transform: rotate(45deg);
+}
+.contact-info, #Work, #about, .work-container p{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.work-container p{
+    margin-left: 230px;
+    margin-right: 80px;
 }
