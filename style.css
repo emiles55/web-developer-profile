@@ -134,3 +134,18 @@ display:flex
     margin-left: 230px;
     margin-right: 80px;
 }
+.iconImage img{
+    height:30px;
+    width: 30px;  
+
+}
+.alignment{
+    display: flex;
+    margin-left: 230px;
+    padding: 20px;
+}
+#phone,#email{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+}
